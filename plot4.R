@@ -41,8 +41,9 @@ subset.data <- subset(electc_pw_consmp,electc_pw_consmp$Date >= date_range[1] &
 # plot each part                                           #
 ############################################################
 
-# set number of plots in x and y axis
+# set number of plots in x and y axis and adjust margin
 par(mfrow = c(2,2))
+par(mar=c(4,4,1,1))
 
 
 
